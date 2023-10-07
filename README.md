@@ -11,13 +11,13 @@ searching through blockchain blocks, transactions, and so on.
 <br>
 ### About the App ###
 
-***Bitcoin blockchain.oss.unist.hr. blockexplorer*** web application, consists on 4 different pages: 
+***Bitcoin blockchain.oss.unist.hr. blockexplorer*** web application, consists of 4 different pages: 
 * Home,
 * Block Details,
 * Transaction Details,
 * Learning.
 <br>
-On the ***Home Page*** main blockchain informations, such as Chain name, blockchain height, size,.. are listed.
+On the ***Home Page*** many blockchain informations, such as Chain name, blockchain height, size,.. are listed.
 <p align="center">
   <img src="https://github.com/MarkoZdilar/BlockExplorer/assets/58775766/c6f7dbc6-5e09-43ea-aacf-f444c3c7e97e" width="90%" >
 </p>
