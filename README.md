@@ -9,7 +9,7 @@ searching through blockchain blocks, transactions, and so on.
 
 - - - -
 <br>
-### About the App ###
+## About the App ##
 
 ***Bitcoin blockchain.oss.unist.hr. blockexplorer*** web application, consists of 4 different pages: 
 * Home,
