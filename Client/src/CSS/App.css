@@ -1,0 +1,42 @@
+/* ---------- Navigation bar ---------- */
+.topnav {
+  display: flex;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.column-center {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 2px;
+}
+.column-center a {
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: border 0.3s ease, border-radius 0.3s ease, color 0.3s ease;
+}
+
+/* ---------- Bottom div element ---------- */
+.bottom-div {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-logo,
+.right-logo {
+  max-height: 40px;
+  margin: 0 10px;
+}

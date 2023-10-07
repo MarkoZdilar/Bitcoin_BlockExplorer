@@ -1,0 +1,108 @@
+h1,
+h3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blockchainDataDiv {
+  border: 5px outset rgb(39, 221, 39);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 99.5%;
+  background-color: beige;
+  display: flex;
+}
+.blockchainData {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchInput {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #60e64e;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.InputForma {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchButton {
+  background-color: white;
+  border: 2px solid #60e64e;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+.searchButton:hover {
+  background-color: #60e64e;
+  color: white;
+}
+
+.Tablica1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.OddTd {
+  background-color: #adadad;
+}
+
+.OddTd:hover {
+  background-color: #60e64e;
+}
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+table {
+  width: 70%;
+}
+
+.TransactionsRow {
+  text-align: center;
+}
+
+.TransactionsRow :hover {
+  border: 1px solid rgb(2, 2, 2);
+  background-color: rgb(231, 142, 142);
+}
+
+.OddTd2 {
+  border: 1px solid rgb(2, 2, 2);
+  background-color: rgb(231, 142, 142);
+}
+
+.findFeeButton {
+  width: 100%;
+  background-color: white;
+  border: 2px solid #60e64e;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+.findFeeButton:hover {
+  background-color: #60e64e;
+  color: white;
+}

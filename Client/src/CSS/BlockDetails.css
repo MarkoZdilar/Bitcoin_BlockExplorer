@@ -1,0 +1,277 @@
+/* ---------- Block details whole container ---------- */
+.block-details-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+/* ---------- Block details table ---------- */
+.block-details-table th,
+.block-details-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.block-details-table th {
+  background-color: #f7931c;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 25px;
+  border: #000000;
+  border: 1px solid #4c4c4c;
+}
+
+.block-details-table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.block-details-table tr {
+  transition: background-color 0.15s;
+}
+
+.block-details-table tr:not(:first-child) th {
+  transition: none;
+}
+
+.block-details-table tr:hover {
+  background-color: #ffaa4d;
+}
+
+.block-details-heading {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.show-transactions-button {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.show-transactions-button:hover {
+  font-weight: bolder;
+  color: #f7931c;
+}
+
+.no-hover tr:hover {
+  background-color: transparent !important;
+  cursor: default;
+}
+
+.block-details-table tr:last-child:hover {
+  background-color: transparent;
+  cursor: default;
+}
+
+/* ---------- Block details form container ---------- */
+.block-details-form-container {
+  color: #4c4c4c;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 4px dotted #f7931c;
+}
+
+.left-animation {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 100px;
+  height: auto;
+}
+
+.right-animation {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 100px;
+  height: auto;
+}
+
+.block-details-heading {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.block-details-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.block-details-button {
+  padding: 10px 20px;
+  background-color: #f7931c;
+  color: #4c4c4c;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.block-details-button:hover {
+  background-color: #ffaa4d;
+  color: #333;
+}
+
+.block-details-dropdown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* ---------- Image "under" table ---------- */
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 15%;
+  margin-top: 3%;
+}
+
+/* ---------- Transactions card container ---------- */
+.transactions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.transaction-card {
+  background-color: #f5f5f5;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: calc(50% - 20px);
+  display: flex;
+  align-items: center;
+  margin-bottom: 17%;
+  justify-content: space-between;
+  max-height: 100px;
+  transition: background-color 0.1s, box-shadow 0.1s;
+}
+
+.transaction-card:hover {
+  background-color: #ffaa4d;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.transaction-card:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.first-image {
+  max-width: 20px;
+  max-height: 20px;
+  margin-right: 10px;
+}
+
+.second-image {
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 10px;
+}
+
+.transaction-info {
+  flex-grow: 1;
+}
+
+.transaction-info p {
+  margin: 0;
+  text-align: center;
+}
+
+.transaction-title {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.transaction-title2 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+.transaction-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.transaction-link:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.centered-image-container2 {
+  text-align: center;
+}
+
+.centered-image2 {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ---------- Modal window styles ---------- */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 2px solid #4c4c4c;
+  width: 50%;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #4c4c4c;
+}
+
+.close {
+  color: #ffaa4d;
+  float: right;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.close:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

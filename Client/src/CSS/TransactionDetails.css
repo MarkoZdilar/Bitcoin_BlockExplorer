@@ -1,0 +1,142 @@
+/* ---------- Transaction details container ---------- */
+.transaction-details-form-container {
+  color: #4c4c4c;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 4px dotted #f7931c;
+}
+
+.left-animation {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 100px;
+  height: auto;
+}
+
+.right-animation {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 100px;
+  height: auto;
+}
+
+/* ---------- Transaction details input ---------- */
+.transaction-details-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.transaction-details-button {
+  padding: 10px 20px;
+  background-color: #f7931c;
+  color: #4c4c4c;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.transaction-details-button:hover {
+  background-color: #ffaa4d;
+  color: #333;
+}
+
+/* ---------- Transaction details table ---------- */
+.transaction-details-table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transaction-details-table tr:first-child {
+  background-color: #f7931c;
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+}
+
+.transaction-details-table tr {
+  transition: background-color 0.15s;
+}
+
+.transaction-details-table tr:not(:first-child) {
+  border: 1px solid #ddd;
+}
+
+.transaction-details-table tr:not(:first-child):hover {
+  background-color: #ffaa4d;
+}
+
+.centered-image {
+  min-width: 25%;
+}
+
+/* ---------- Modal window ---------- */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 2px solid #4c4c4c;
+  width: 50%;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #4c4c4c;
+}
+
+.close {
+  color: #ffaa4d;
+  float: right;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ---------- Gif under table ---------- */
+.centered-gif-container {
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  padding-top: 3%;
+}
+
+.centered-gif {
+  width: 25%;
+}
