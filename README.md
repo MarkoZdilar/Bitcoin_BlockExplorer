@@ -17,7 +17,7 @@ searching through blockchain blocks, transactions, and so on.
 * Transaction Details,
 * Learning.
 <br>
-On the ***Home Page*** many blockchain informations, such as Chain name, blockchain height, size,.. are listed.
+On the ***Home page*** many blockchain informations, such as Chain name, blockchain height, size,.. are listed.
 <p align="center">
   <img src="https://github.com/MarkoZdilar/BlockExplorer/assets/58775766/c6f7dbc6-5e09-43ea-aacf-f444c3c7e97e" width="80%" >
 </p>
@@ -36,7 +36,7 @@ After hitting _"Show all transactions"_ button, we get full list of transactions
 </p>
 <br>
 
-Next one is Transaction Details page, place for getting more details about transactions such as Tx Hash, Size, Version, number of inputs and oputputs,
+Next one is ***Transaction Details page***, place for getting more details about transactions such as Tx Hash, Size, Version, number of inputs and oputputs,
 Transaction Fee calculated in Satoshi's, etc.
 <p align="center">
   <img src="https://github.com/MarkoZdilar/BlockExplorer/assets/58775766/8f0516d8-69f5-4bd4-a769-7c4b54c2aa3d" width="80%" >
